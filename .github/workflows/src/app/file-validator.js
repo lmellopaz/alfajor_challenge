@@ -4,7 +4,7 @@ const yaml = require('yaml')
 const md = require('markdown-it')
 
 const pullAuthor = actionEvent.pull.user.login
-const expectedPath = `data/${pullAuthor}`
+const expectedPath = `data`
 const authors1 = `data/authors.txt`
 const characterLimits = {  quote: 280 }
 
