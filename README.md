@@ -1,62 +1,55 @@
-# GitHub PR - Pão de Queijo Request
+# GitHub PR - PicaFresas Request
 
-## Como participar do PR Pão de Queijo
-Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os três passos descritos abaixo. 
+## Cómo participar en el PR Picafresas challenge
+Participa para ganar uno de los códigos de playeras de GitHub y stickers de Github, sólo necesitas seguir estos 3 pesos
 
-### 1. Faça um Pull Request neste repositório
+### 1. Crea un PULL request en este repositorio
 
-O que voce recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
+Dentro del folder data crea un archivo con tu nombre de usuario de GitHub y terminación .md (ej. `<USUARIO>.md`) donde nos digas que 
 
+¿Qué recomendarías hacer como asistente  durante Talent Land? (Máx. 280 caracteres)
 
-Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, que `<SEU-USUARIO>` é Case Sensitive (respeita maiúsculas e minúsculas). Por exemplo, se o seu nome de usuário é `MonaTheOctocat`, usar outras variações como `monatheoctocat` ou `monaTheoctocat` irá gerar um erro ao submeter o Pull Request. Tenha certeza que você está usando o seu nome de usuário corretamente tanto no nome da pasta quanto no nome do arquivo.
+Reemplaza `<USUARIO>` con tu nombre de usuario de GitHub en esta guía. Ten en cuenta que `<USUARIO>` distingue entre mayúsculas y minúsculas. Por ejemplo, si su nombre de usuario es `MonaTheOctocat`, usar otras formas como `monatheoctocat` o `monaTheoctocat` generará un error al enviar el pull request. Asegúrete de que estés usando tu nombre de usuario correctamente en el nombre del archivo.
   
-🚨 Não use caracteres especiais no template acima.
+🚨 No uses caracteres especiales en la plantilla anterior, esta es la plantilla para el archivo .md
     
 ```
 ---
-quote: Sua frase aqui.
+quote: tu frase aquí.
 ---
 ```
   
-Use o checklist no template do Pull Request para garantir que sua submissão é válida. A equipe do GitHub Education irá revisar sua aplicação, aprovar e fazer o merge da sua submissão se tudo estiver correto. Caso contrário, você será notificado das mudanças necessárias nos comentários do Pull Request.
+El equipo de educación de GitHub y nuestro querido bot revisará tu solicitud y la dejará lista para hacer merge si todo es correcto. De lo contrario, se te notificarán los cambios necesarios en los comentarios de tú pull request.
+  
+### 2. Encuentra a alguien de GitHub en Talent Land 
 
-❓ Está enfrentando algum problema ao submeter o seu Pull Request? Busque por ajuda no [GitHub Community](https://github.community/)!
-  
-### 2. Encontre alguém do GitHub na Campus Party 
-Funcionários e Campus Experts do GitHub são os únicos com a permissão para aprovar o seu Pull Request e fornecer o cupom para o pão de queijo. Você pode nos encontrar caminhando pelo evento (as pessoas das fotos abaixo), mas estaremos sempre em nossa bancada dentro da arena 👀 🗺️
-  
-Essas são as pessoas autorizadas a aprovar o seu Pull Request -
-  
-  ![mlarasusan](https://avatars.githubusercontent.com/mlarasusan?s=64)
-  ![elisemoe](https://avatars.githubusercontent.com/elisemoe?s=64)
-  ![juanpflores](https://avatars.githubusercontent.com/juanpflores?s=64)
-  ![pachicodes](https://avatars.githubusercontent.com/pachicodes?s=64)
-  ![pedrolacerda](https://avatars.githubusercontent.com/pedrolacerda?s=64)
-  ![euaaron](https://avatars.githubusercontent.com/euaaron?s=64)
-  ![wgcv](https://avatars.githubusercontent.com/wgcv?s=64)
-  
-  ### 3. Hora de comer! Vá até o Segafredo Café para retirar o seu pão de queijo
-  
-Informações importantes: Segafredo fica no primeiro andar, junto com as lojas. Você pode trocar o seu cupom por um pão de queijo, OU uma fatia de bolo de fubá, OU um café. 
-  
-  ## Outras formas de participar com o GitHub na Campus Party 
-  - [ ] Compartilhe sobre o PR Pão de Queijo com seus amigos. Se você for marcado em três diferentes Pull Requests, VOCÊ ganha uma camiseta do GitHub (retirar em nossa bancada) 
-  - [ ] Siga o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e [Instagram](https://www.instagram.com/githubeducation/) 
-  - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
-  - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education (https://twitter.com/GitHubEducation ou https://www.instagram.com/githubeducation/)
+Los empleados de GitHub y los campus experts son los únicos que pueden aprobar tu pull request y darte stickers de GitHub y dulces. Puedes encontrarnos en las mesas de trabajo del área de developers en los siguientes horarios.
 
+Jueves 00:00 - 00:00 
+Viernes 00:00 - 00:00
+Sábado 00:00 - 00:00
+  
+Estas son las personas autorizadas para aprobar tu pull request -
+  
+![ultr4nerd](https://avatars.githubusercontent.com/ultr4nerd?s=64)
+![FernandaOchoa](https://avatars.githubusercontent.com/FernandaOchoa?s=64)
+![GabrielMissael](https://avatars.githubusercontent.com/GabrielMissael?s=64)
+![BubuDavid](https://avatars.githubusercontent.com/BubuDavid?s=64)
+![David-Lazaro-Fernandez](https://avatars.githubusercontent.com/David-Lazaro-Fernandez?s=64)
+![LeslieSaucedo](https://avatars.githubusercontent.com/LeslieSaucedo?s=64)
+![MariaEmiliaRG](https://avatars.githubusercontent.com/MariaEmiliaRG?s=64)
+![SweetSofiMC](https://avatars.githubusercontent.com/SweetSofiMC?s=64)
+![pacomgh](https://avatars.githubusercontent.com/pacomgh?s=64)
+![RodolfoFerro](https://avatars.githubusercontent.com/RodolfoFerro?s=64)
 
-## Vencedores do Pão de Queijo
-
-<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/lasrtest">
-            <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
-            <br />
-            <sub><b>lasrtest</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -end -->
+  
+ ### 3. ¡Hora de comer dulces!  y pegar esos stickers en tu Laptop 
+  
+Información importante: cada día vamos a estar un rato en las mesas del área de developers, ve los horarios en que estamos ahí. Todas las personas que su Pull request sea aprobado van a ser elegidas para el sorteo de códigos de playeras. 
+  
+  ## Otras formas de participar con GitHub en Talent Land 
+  - [ ] Comparte con más personas el PicaFresas Request 
+  - [ ] Sigue a GitHub Education en [Twitter](https://twitter.com/GitHubEducation) y [Instagram](https://www.instagram.com/githubeducation/) 
+  - [ ] Regístrate para el [Student Developer Pack](https://education.github.com/discount_requests/student_application?utm_source=2022-07-20-JALISCO-TALENT-LAND-2022) (acude a la mesa para recibir ayuda) 
+  - [ ] Publica una foto con tus stickers y etiqueta GitHub Education
+(https://twitter.com/GitHubEducation o https://www.instagram.com/githubeducation/)

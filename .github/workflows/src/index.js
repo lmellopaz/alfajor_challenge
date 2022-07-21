@@ -168,8 +168,8 @@ Feel free to re-request a review from me and I'll come back and take a look!
 
   try {
     await octokit.createReview(`
-**Hi ${ actionEvent.pullAuthor },**
-**Welcome to Campus Party !**
+**Hola ${ actionEvent.pullAuthor },**
+**Estamos muy felcies de verte en Talent Land, vamos a revisar ese PR!**
 
 ${ feedBackMessage }
 `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
