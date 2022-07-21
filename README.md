@@ -25,9 +25,7 @@ El equipo de educación de GitHub y nuestro querido bot revisará tu solicitud y
 
 Los empleados de GitHub y los campus experts son los únicos que pueden aprobar tu pull request y darte stickers de GitHub y dulces. Puedes encontrarnos en las mesas de trabajo del área de developers en los siguientes horarios.
 
-Jueves 00:00 - 00:00 
-Viernes 00:00 - 00:00
-Sábado 00:00 - 00:00
+Jueves 22:00 - 00:00
   
 Estas son las personas autorizadas para aprobar tu pull request -
   
@@ -41,6 +39,7 @@ Estas son las personas autorizadas para aprobar tu pull request -
 ![SweetSofiMC](https://avatars.githubusercontent.com/SweetSofiMC?s=64)
 ![pacomgh](https://avatars.githubusercontent.com/pacomgh?s=64)
 ![RodolfoFerro](https://avatars.githubusercontent.com/RodolfoFerro?s=64)
+![lasr21](https://avatars.githubusercontent.com/lasr21?s=64)
 
   
  ### 3. ¡Hora de comer dulces!  y pegar esos stickers en tu Laptop 
