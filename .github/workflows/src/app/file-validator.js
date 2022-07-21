@@ -33,7 +33,7 @@ class FileVaidator {
      mdContent = mdParser.render(markdown)
     } catch(err) {
       console.log("markdown error: " + err)
-      errors.push(`*The markdown content in \`${expectedPath}/${pullAuthor}.md\` has syntax errors*`)
+      errors.push(`* El archivo creado en \`${expectedPath}/${pullAuthor}.md\` tiene errores de sintaxis*`)
     }
 
     if(mdContent !== false) {
@@ -44,9 +44,9 @@ class FileVaidator {
 
       for(const key of [ "quote" ]) {
         if(!meta[key]) {
-          errors.push(`*The attribute \`${key}\` is required in \`${expectedPath}/${pullAuthor}.md\`*`)
+          errors.push(`*El atributo \`${key}\` es requerido en \`${expectedPath}/${pullAuthor}.md\` echa un vistaso a la plantilla*`)
         } else if(meta[key].length > characterLimits[key]) {
-          errors.push(`*The value for \`${key}\` can only have **${characterLimits[key]}** characters max (I see **${meta[key].length }**)*`)
+          errors.push(`*El valor \`${key}\` solo puede tener **${characterLimits[key]}** caracteres maximo (I veo **${meta[key].length }**)*`)
         }
       }
     } else {
@@ -79,11 +79,11 @@ class FileVaidator {
     }
 
     if(InvalidMarkdownFile) {
-      errors.push(`*The required markdown file does not exist, please ensure the file \`${expectedPath}/${pullAuthor}.md\` exists*`)
+      errors.push(`*El archivo .md requerido no existe, asegúrete de que el archivo \`${expectedPath}/${pullAuthor}.md\` existe*`)
     }
 
     if(invalidDirectory) {
-      errors.push(`*Please ensure all changes are contained within the \`${expectedPath}/\` directory. Invalid file paths:* \n\n\t* ${invalidPaths.join('\n\t* ')}\n`)
+      errors.push(`*Asegúrete de que todos los cambios estén incluidos en el directorio\`${expectedPath}/\`. Invalid file paths:* \n\n\t* ${invalidPaths.join('\n\t* ')}\n`)
     }
 
     return { isValid: !errors.length, errors }

@@ -75,7 +75,7 @@ try {
   try {
     content = isFilePathValid.isValid && await octokit.getContent(`data/${actionEvent.pullAuthor}.md`)
   } catch(err) {
-    feedback.push("I was unable to view the content of the markdown file, please try again in a few minutes")
+    feedback.push("No pude ver el contenido del archivo markdown, por favor intenta de nuevo en unos minutos")
     console.log(err)
   }
 
@@ -129,12 +129,12 @@ try {
 
   if(!isFilePathValid.isValid) {
     console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
-    feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors?.join('\n')}`)
+    feedback.push(`* *Uh Oh! He encontrado algunos problemas con el lugar donde creaste tus archivos!* \n\t${isFilePathValid.errors?.join('\n')}`)
   }
 
   if(isMarkdownValid.isValid === false) {
     console.log("markdown is invalid")
-    feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors?.join('\n')}`)
+    feedback.push(`* * Echa otro vistazo a tu archivo, hay errores: * \n\t${isMarkdownValid.errors?.join('\n')}`)
   }
   
 
@@ -143,14 +143,15 @@ try {
     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
   } else if(feedback.length) {
     feedBackMessage = `
-### I have a few items I need you to take care of before I can merge this PR:\n
+### Tengo algunos elementos de los que necesito que te ocupes antes de que podamos aceptar este PR:\n
 ${feedback.join('\n')}
 
-Feel free to re-request a review from me and I'll come back and take a look!
+Siéntete libre de volver a solicitarme una revisión y volveré y echaré un vistazo.
     `
   } else {
     // All checks pass
-    feedBackMessage = "Excellent, now you're one step away from a delicious pao de queijo. Find a hubber or Campus Expert so they can merge your pull request and give you a voucher for some pao de queijo. "
+    
+    feedBackMessage = "Excelente, ahora estás a un paso de participar en la rifa de plaeras de GitHub. Encuentra un hubber o Campus Expert para que pueda aceptar tu Pull request y darte stickers de GitHub."
     
 
     try {
@@ -159,7 +160,7 @@ Feel free to re-request a review from me and I'll come back and take a look!
 
     } catch(err) {
       console.error(err)
-      feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
+      feedBackMessage += "\n\n Uh Oh! Intente hacer merge de este PR pero algo salio mal!"
       feedback.push("merge failed")
     }
   }
