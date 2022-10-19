@@ -170,7 +170,7 @@ Siéntete libre de volver a solicitarme una revisión y volveré y echaré un vi
   try {
     await octokit.createReview(`
 **Hola ${ actionEvent.pullAuthor },**
-**Estamos muy felcies de verte en Talent Land, vamos a revisar ese PR!**
+**Estamos muy felcies de verte en Git commit Uruguay, vamos a revisar ese PR!**
 
 ${ feedBackMessage }
 `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
